@@ -16,8 +16,6 @@ Esse projeto está sendo desenvolvido com as seguintes tecnologias:
 - Sass
 - Java-Script
   
-Claro, vou ajudá-lo a criar as instruções para instalar o Sass em seu arquivo `readme.md` no GitHub. Siga as etapas abaixo:
-
 ## Como Instalar o Sass
 
 O Sass é um pré-processador CSS que facilita a escrita e a manutenção de estilos em seus projetos web. Para começar a usá-lo, siga as etapas abaixo:

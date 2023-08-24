@@ -1,0 +1,65 @@
+@import "main.scss";
+
+* {
+    padding: 0px;
+    margin: 0px;
+    scroll-behavior: smooth;
+
+}
+
+#navbar {
+  background-color: $light-black;
+  justify-content: space-between;
+  padding: 35px;
+  display: flex;
+  width: 100%;
+
+  a {
+    text-decoration: none;
+    color: white;
+
+    &:hover {
+        transition: .5s;
+        color: rgba(255, 255, 255, 0.699);
+    }
+
+  }
+
+}
+
+#nav-name {
+    
+    color: white;
+    margin: 0px;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 30px;
+}
+
+.nav-items {
+    display: flex;
+    position: absolute;
+    right: 30px;
+    color: white;
+    list-style: none;
+    font-family: 'Roboto Mono', monospace;
+
+}
+
+.nav-item {
+        padding: 20px;
+        font-size: 20px;
+        text-decoration: none;
+        color: white;
+    }
+
+.mobile-menu-icon {
+    display: none;
+    
+}
+
+.mobile-menu {
+    display: none;
+}
+
+
+

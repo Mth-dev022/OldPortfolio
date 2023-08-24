@@ -1,0 +1,238 @@
+@media (max-width: 720px) {
+   
+   body {
+      overflow-x: hidden;
+   }
+
+   #navbar {
+      justify-content: space-around;
+   }
+   
+    .nav-items {
+      display: none;
+    }
+
+    .mobile-menu-icon {
+      display: block;
+
+      button {
+         background-color: transparent;
+         border: none;
+         cursor: pointer;
+      }
+  }
+  
+  .mobile-menu {
+        
+   .nav-items-mobile {
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      padding-bottom: 1rem;
+
+      .nav-item-mb {
+         display: block;
+         padding-top: 1.2rem;
+         color: white;
+         text-decoration: none;
+         font-size: 20px;
+      }
+   }
+
+  }
+
+    #right-size {
+        display: none;
+     }
+
+     #main {
+         
+         #left-size {
+         margin-left: 30px;
+         padding: 0px;
+
+         p {
+            width: 300px;
+         }
+
+         #area_social-medias {
+            gap: 50px;
+         }
+         
+         .social-medias {
+            
+            a {
+               width: 40px;
+               display: flex;
+               align-items: center;
+               justify-content: center;
+               text-decoration: none;
+            }
+         }
+         
+      }
+   }
+
+   /*---- Habilidades ---- */
+
+   #habilidades {
+      height: 900px;
+     
+      #cards-area {
+         width: 250px;
+      
+         .cards-row {
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: column;
+            height: 400px;
+         }
+         
+         .cards-row-02 {
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: column;
+            height: 400px;
+            margin: 0px;
+            
+         }
+
+         .cards {
+            width: 100px;
+            
+         }
+         
+       }
+   } 
+   
+   /*---- Projetos ---- */
+
+   #projetos {
+      width: 300px;
+      margin: 0 auto;   
+}
+
+/*---- Certificados ---- */
+
+   #certificados {
+      background-color: transparent;
+
+      h1 {
+         margin: 0;
+      }
+      
+   }
+
+   /*---- Footer ---- */
+
+   footer {
+      h1 {
+         margin: 0;
+      }
+   }
+
+}
+   
+@media (min-width: 721px) and (max-width: 1280px) {
+
+   body {
+      overflow-x: hidden;
+   }
+
+   #navbar {
+      justify-content: space-around;
+
+   }
+
+   .mobile-menu-icon {
+      display: block;
+
+      button {
+         background-color: transparent;
+         border: none;
+         cursor: pointer;
+      }
+  }
+
+  
+  .mobile-menu {
+        
+   .nav-items-mobile {
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      padding-bottom: 1rem;
+
+      .nav-item-mb {
+         display: block;
+         padding-top: 1.2rem;
+         color: white;
+         text-decoration: none;
+         font-size: 20px;
+      
+      }
+   }
+
+  }
+
+   .nav-items {
+      display: none;
+   }
+
+   #right-size {
+       display: none;
+    }
+
+    #main {
+
+     #left-size {
+      justify-content: center;
+        
+        .social-medias {
+           
+           a {
+              width: 40px;
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              text-decoration: none;
+           }
+        }
+        
+     }
+  }
+
+  /*---- Habilidades ---- */
+
+  #habilidades {
+     height: 800px;
+
+     #cards-area {
+        width: 350px;
+        display: flex;
+   
+        .cards-row {
+           justify-content: center;
+           margin-left: 30px;
+        }
+
+        .cards-row-02 {
+           justify-content: center;
+           margin-left: 30px;
+        }
+
+        .cards {
+           width: 90px;
+           
+        }
+        
+      }
+  } 
+
+  /*---- Projetos ---- */
+
+  #projetos {
+     width: 500px;
+     
+  }
+}

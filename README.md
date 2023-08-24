@@ -15,8 +15,7 @@ Esse projeto está sendo desenvolvido com as seguintes tecnologias:
 - CSS3
 - Sass
 - Java-Script
-- 
-
+  
 Claro, vou ajudá-lo a criar as instruções para instalar o Sass em seu arquivo `readme.md` no GitHub. Siga as etapas abaixo:
 
 ## Como Instalar o Sass

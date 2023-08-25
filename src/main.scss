@@ -1,0 +1,96 @@
+$light-black: #0f1419;
+$dark-black: #0a0e14;
+
+
+body {
+
+    background-color: $dark-black;
+    overflow-x: hidden;
+}
+
+#main {
+   height: 460px;
+    
+    #left-size { 
+        margin-left: 120px;
+        margin-bottom: 100px;
+        padding: 10px 0px 10px 0;
+        
+        h3 {
+            margin-top: 20px;
+            margin-left: 20px;
+            color: rgba(255, 255, 255, 0.452);
+            font-size: 22px;
+            margin-top: 10px;
+            margin-bottom: 10px;
+            font-family: 'Inconsolata', monospace;
+        }
+
+        h1 {
+            margin-left: 20px;
+            color: white;
+            font-size: 50px;
+            font-family: 'Inconsolata', monospace;
+        }
+
+        p {
+            color: white;
+            width: 400px;
+            margin-left: 20px;
+            margin-top: 20px;
+            font-size: 17.5px;
+            font-family: 'Inconsolata', monospace;
+        }
+
+        #area_social-medias {
+          display: flex;
+          gap: 80px;
+          margin-top: 60px;
+          width: 50%;
+        }
+
+        .social-medias {
+            display: flex;
+            width: 45px;
+            height: 45px;
+            border-radius: 9px;
+            border: 1px solid whitesmoke;
+            justify-content: center;
+            align-items: center;
+            margin-left: 20px;
+            margin-top: 10px;
+            margin-bottom: 10px;
+
+             i {
+                font-size: 23.5px;
+            }
+
+          }
+    }
+
+    #right-size {
+       position: absolute;
+       right: 310px;
+       top: 180px;
+ 
+    }
+     
+}
+
+.load {
+    animation-name: load;
+    animation-duration: 1.0s;
+    transition: ease-in;
+}
+
+@keyframes load {
+    /* Defina a animação aqui, por exemplo, vamos fazer o elemento se mover */
+    from {
+      transform: translateX(-100%);
+    }
+    to {
+      transform: translateX(0);
+    }
+  }
+
+    

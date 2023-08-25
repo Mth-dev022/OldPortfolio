@@ -1,0 +1,187 @@
+@media (max-width: 720px) {
+  body {
+    overflow-x: hidden;
+  }
+  #navbar {
+    justify-content: space-around;
+  }
+  #navbar h1 {
+    padding: 0;
+  }
+  .nav-items {
+    display: none;
+  }
+  .mobile-menu-icon {
+    display: block;
+    margin-right: 50px;
+  }
+  .mobile-menu-icon button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+  }
+  .mobile-menu .nav-items-mobile {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 1rem;
+  }
+  .mobile-menu .nav-items-mobile .nav-item-mb {
+    display: block;
+    padding-top: 1.2rem;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+  }
+  #right-size {
+    display: none;
+  }
+  #main #left-size {
+    margin-left: 15px;
+    padding: 0px;
+  }
+  #main #left-size p {
+    width: 300px;
+  }
+  #main #left-size #area_social-medias {
+    gap: 50px;
+  }
+  #main #left-size .social-medias a {
+    width: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+  }
+  /*---- Habilidades ---- */
+  #habilidades {
+    width: 300px;
+    height: 900px;
+  }
+  #habilidades #cards-area {
+    width: 100%;
+    padding-left: 15px;
+    height: 0px;
+    display: flex;
+  }
+  #habilidades #cards-area .cards-row {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  #habilidades #cards-area .cards-row-02 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    margin: 0px;
+  }
+  #habilidades #cards-area .cards {
+    height: 100px;
+    width: 90px;
+    font-size: 35px;
+  }
+  #habilidades #cards-area .cards p {
+    font-size: 20px;
+  }
+  /*---- Projetos ---- */
+  #projetos {
+    width: 300px;
+  }
+  #projetos .card-projetos img {
+    width: 250px;
+  }
+  /*---- Certificados ---- */
+  #certificados {
+    background-color: transparent;
+  }
+  #certificados h1 {
+    margin: 0;
+  }
+  /*---- Footer ---- */
+  footer h1 {
+    margin: 0;
+  }
+}
+@media (min-width: 721px) and (max-width: 1280px) {
+  body {
+    overflow-x: hidden;
+  }
+  #navbar {
+    justify-content: space-around;
+  }
+  .mobile-menu-icon {
+    display: block;
+  }
+  .mobile-menu-icon button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+  }
+  .mobile-menu .nav-items-mobile {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 1rem;
+  }
+  .mobile-menu .nav-items-mobile .nav-item-mb {
+    display: block;
+    padding-top: 1.2rem;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+  }
+  .nav-items {
+    display: none;
+  }
+  #right-size {
+    display: none;
+  }
+  #main #left-size {
+    justify-content: center;
+  }
+  #main #left-size p {
+    font-size: 23px;
+  }
+  #main #left-size .social-medias {
+    padding: 10px;
+    height: 50px;
+  }
+  #main #left-size .social-medias i {
+    font-size: 40px;
+    margin-left: 13px;
+    width: 50px;
+  }
+  /*---- Habilidades ---- */
+  #habilidades {
+    height: 700px;
+  }
+  #habilidades #cards-area {
+    width: 350px;
+    display: flex;
+  }
+  #habilidades #cards-area .cards-row {
+    justify-content: center;
+    margin-left: 30px;
+  }
+  #habilidades #cards-area .cards-row-02 {
+    justify-content: center;
+    margin-left: 30px;
+  }
+  #habilidades #cards-area .cards {
+    width: 85px;
+    height: 130px;
+    font-size: 35px;
+  }
+  #habilidades #cards-area .cards p {
+    font-size: 25px;
+  }
+  /*---- Projetos ---- */
+  #projetos {
+    width: 600px;
+  }
+}
+
+/*# sourceMappingURL=responsive.css.map */

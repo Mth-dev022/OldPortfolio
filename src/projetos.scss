@@ -1,0 +1,76 @@
+@import "main.scss";
+
+#projetos {   
+    margin: 0 auto;
+    width: 1400px;
+
+    h1 {
+        color: white;
+        margin: 60px auto 40px auto;
+        text-align: center;
+        font-size: 35px;
+        font-family: 'Roboto Mono', monospace;
+    }
+
+    #area-projetos {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap;
+        
+        .card-projetos { 
+            width:400px;
+            background-color:$light-black;
+            border-radius: 10px;
+            margin: 20px;
+
+            img {
+              margin: 15px 22px 15px 22px;
+            }
+
+            &:hover {
+              background-color: rgba(192, 192, 209, 0.075);
+              transition: .4s ease-in;
+            }
+           
+
+           hr {
+               border: none;
+               height: 1px;
+               width: 95%;
+               margin: 0 auto;
+               background-color:  rgba(255, 255, 255, 0.452);
+            }
+
+            h2 {
+                color: white;
+                margin-top: 10px;
+                text-align: center;
+                font-family: 'Inconsolata', monospace;
+            }
+
+            p {
+              color: rgba(255, 255, 255, 0.452);
+              margin: 10px 0 10px 15px;
+              font-family: 'Inconsolata', monospace;
+            }
+
+           #acessar {
+                display: flex;
+                justify-content: center;
+               
+            a {
+                color: #39bae6;
+                text-decoration: none;
+                font-size: 18px;
+                font-family: 'Inconsolata', monospace;
+
+                &:hover {
+                    text-decoration: underline;
+                }
+              
+            }
+           }
+        }
+    }
+}

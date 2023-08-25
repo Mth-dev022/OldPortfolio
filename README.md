@@ -4,7 +4,7 @@
 
 #  📝 Descrição do projeto
 <p>
-  Site pessoal totalmente responsivo criado com o propósito de informar minhas certificações e habilidades. Possuí minhas informações de contato, e uma breve divulgação de projetos pessoais. 
+  Site pessoal totalmente responsivo criado com o propósito de informar minhas certificações e habilidades. Possui minhas informações de contato, e uma breve divulgação de projetos pessoais. 
 </p>
 
 ## 🚀 Tecnologias

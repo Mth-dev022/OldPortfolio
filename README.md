@@ -49,4 +49,4 @@ Lembre-se de que essas instruções assumem que você já possui o Node.js insta
 
 Nota: Se você estiver usando um gerenciador de pacotes como o Yarn em vez do npm, você pode substituir npm por yarn nas etapas acima.
 
-Isso deve ser suficiente para que os usuários do seu repositório GitHub saibam como instalar o Sass em seus sistemas. Certifique-se de manter este arquivo readme.md atualizado conforme necessário.
+Isso deve ser suficiente para que os usuários do seu repositório GitHub saibam como instalar o Sass em seus sistemas. Certifique-se de manter este arquivo readme.md atualizado conforme necessário

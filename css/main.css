@@ -33,7 +33,8 @@ body {
   margin-left: 20px;
   margin-top: 20px;
   font-size: 17.5px;
-  font-family: "Inconsolata", monospace;
+  font-family: "Kanit", sans-serif;
+  letter-spacing: 2.5px;
 }
 #main #left-size #area_social-medias {
   display: flex;

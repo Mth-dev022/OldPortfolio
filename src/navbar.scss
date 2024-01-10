@@ -12,57 +12,56 @@
   padding: 35px;
   display: flex;
   width: 100%;
+  z-index: 10;
 
   h1 {
     padding-left: 110px;
+    padding-top: 15px;
   }
 
-  a {
+   a {
     text-decoration: none;
     color: white;
-
+    
     &:hover {
         transition: .5s;
         color: rgba(255, 255, 255, 0.699);
     }
-
   }
-
 }
 
 #nav-name {
-    
     color: white;
     margin: 0px;
     font-family: 'Roboto Mono', monospace;
     font-size: 30px;
 }
-
 .nav-items {
     display: flex;
-    position: absolute;
-    right: 30px;
+    margin-right: 60px;
+    font-weight: bold;
     color: white;
     list-style: none;
     font-family: 'Roboto Mono', monospace;
-
+    padding: 15px 20px 0px 20px;
 }
 
-.nav-item {
-        padding: 20px;
+.nav-item {  
+        padding: 15px;
         font-size: 20px;
         text-decoration: none;
         color: white;
     }
 
 .mobile-menu-icon {
-    display: none;
-    
+    display: none;   
 }
 
 .mobile-menu {
     display: none;
 }
+
+
 
 
 

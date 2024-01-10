@@ -33,7 +33,8 @@ body {
   margin-left: 20px;
   margin-top: 20px;
   font-size: 17.5px;
-  font-family: "Inconsolata", monospace;
+  font-family: "Kanit", sans-serif;
+  letter-spacing: 2.5px;
 }
 #main #left-size #area_social-medias {
   display: flex;
@@ -96,12 +97,13 @@ body {
 }
 #certificados #certificados-area .cards {
   width: 400px;
+  height: 550px;
   border-radius: 10px;
   background-color: #0f1419;
   box-shadow: 0 0.625rem 1.5625rem rgba(0, 0, 0, 0.8);
   font-size: 100px;
   text-align: center;
-  margin: 50px 0 80px 0;
+  margin: 50px 50px 80px 50px;
   padding-top: 50px;
 }
 #certificados #certificados-area .cards:hover {
@@ -113,18 +115,17 @@ body {
   margin-top: 10px;
   font-size: 30px;
   font-family: "Roboto Mono", monospace;
+  height: 100px;
 }
-#certificados #certificados-area .cards #area-2 {
-  height: 230px;
-}
-#certificados #certificados-area .cards #area-2 p {
+#certificados #certificados-area .cards .area-2 p {
   color: white;
   font-size: 18px;
+  height: 100px;
   margin: 20px auto 0 auto;
   width: 300px;
   font-family: "Inconsolata", monospace;
 }
-#certificados #certificados-area .cards #area-2 a {
+#certificados #certificados-area .cards .area-2 a {
   color: white;
   border: 2px solid white;
   border-radius: 10px;
@@ -133,7 +134,7 @@ body {
   text-decoration: none;
   font-family: "Inconsolata", monospace;
 }
-#certificados #certificados-area .cards #area-2 a:hover {
+#certificados #certificados-area .cards .area-2 a:hover {
   background-color: whitesmoke;
   color: black;
   transition: 0.6s ease;

@@ -46,6 +46,10 @@
 
   }
 
+  .open {
+   display: block;
+ }
+
     #right-size {
         display: none;
      }
@@ -110,11 +114,15 @@
 
          .cards {
             height: 100px;
-            width: 90px;
+            width: 98px;
             font-size: 35px;
+            margin-top: 20px;
 
             p {
                font-size: 20px;
+            }
+            img {
+               width: 32px;
             }
             
          }
@@ -130,76 +138,57 @@
       .card-projetos {
 
          img {
-            width: 250px; 
+            width: 230px; 
          }
       }
-}
+   }
 
 /*---- Certificados ---- */
 
-   #certificados {
-      background-color: transparent;
-
-      h1 {
-         margin: 0;
-      }
+#certificados {
+   #certificados-area {
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      align-items: center;
+     .cards {
+      margin-top: 15px;
       
+      h2 {
+         font-size: 25px;
+      }
+      img {
+         width: 120px;
+      }
+   
+     }
+     
    }
-
+}
    /*---- Footer ---- */
-
    footer {
       h1 {
          margin: 0;
       }
    }
-
 }
-   
-@media (min-width: 721px) and (max-width: 1280px) {
-
+@media (min-width: 720px) and (max-width: 1280px) {
    body {
       overflow-x: hidden;
    }
 
-   #navbar {
-      justify-content: space-around;
-
-   }
-
    .mobile-menu-icon {
-      display: block;
-
+      display: none;
       button {
          background-color: transparent;
          border: none;
          cursor: pointer;
       }
   }
-
-  
-  .mobile-menu {
-        
-   .nav-items-mobile {
-      display: flex;
-      flex-direction: column;
-      text-align: center;
-      padding-bottom: 1rem;
-
-      .nav-item-mb {
-         display: block;
-         padding-top: 1.2rem;
-         color: white;
-         text-decoration: none;
-         font-size: 20px;
-      
-      }
-   }
-
-  }
-
    .nav-items {
-      display: none;
+      .nav-item {
+         font-size: 17px; 
+      }
    }
 
    #right-size {
@@ -207,25 +196,24 @@
     }
 
     #main {
-
+      
      #left-size {
       justify-content: center;
-
+      
       p {
          font-size: 23px;
       }
         
         .social-medias {
-          padding: 10px;
-          height: 50px;
+          padding: 8px;
+          height: 35px;
 
          i {
-            font-size: 40px;
+            font-size: 35px;
             margin-left: 13px;
             width: 50px;
          }
         }
-        
      }
   }
 
@@ -252,9 +240,13 @@
            width: 85px;
            height: 130px;
            font-size: 35px;
-           
+
            p {
-            font-size: 25px;
+            font-size: 20px;
+           }
+
+           img {
+            width: 35px;
            }
            
         }
@@ -267,4 +259,40 @@
   #projetos {
       width: 600px;
    }
+
+   #certificados {
+
+      #certificados-area {
+        .cards {
+         width: 200px;
+         height: 500px;
+        
+         img {
+            width: 100px;
+           }
+         h2 {
+            font-size: 20px;
+            height: 50px;
+            padding-bottom: 20px;
+         }
+         .area-2 {
+            height: 300px;
+            p {
+               width: 140px;
+               font-size: 15px;
+               padding-bottom: 35px;
+               
+            }
+
+            a {
+               padding: 10px;
+               font-size: 15px;
+            }
+         }
+         
+        }
+        
+      }
+   }
+
 }

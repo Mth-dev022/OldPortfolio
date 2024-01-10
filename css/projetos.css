@@ -33,7 +33,8 @@ body {
   margin-left: 20px;
   margin-top: 20px;
   font-size: 17.5px;
-  font-family: "Inconsolata", monospace;
+  font-family: "Kanit", sans-serif;
+  letter-spacing: 2.5px;
 }
 #main #left-size #area_social-medias {
   display: flex;
@@ -123,7 +124,7 @@ body {
 #projetos #area-projetos .card-projetos p {
   color: rgba(255, 255, 255, 0.452);
   margin: 10px 0 10px 15px;
-  font-family: "Inconsolata", monospace;
+  font-family: "Kanit", sans-serif;
 }
 #projetos #area-projetos .card-projetos #acessar {
   display: flex;
@@ -133,7 +134,8 @@ body {
   color: #39bae6;
   text-decoration: none;
   font-size: 18px;
-  font-family: "Inconsolata", monospace;
+  font-family: "Kanit", sans-serif;
+  letter-spacing: 1.5px;
 }
 #projetos #area-projetos .card-projetos #acessar a:hover {
   text-decoration: underline;

@@ -33,7 +33,8 @@ body {
   margin-left: 20px;
   margin-top: 20px;
   font-size: 17.5px;
-  font-family: "Inconsolata", monospace;
+  font-family: "Kanit", sans-serif;
+  letter-spacing: 2.5px;
 }
 #main #left-size #area_social-medias {
   display: flex;
@@ -110,9 +111,10 @@ body {
   background-color: #0f1419;
 }
 #habilidades .cards p {
-  color: rgba(255, 255, 255, 0.452);
+  color: rgba(255, 255, 255, 0.514);
   font-size: 35px;
   margin-top: 15px;
+  font-family: "Kanit", sans-serif;
 }
 #habilidades .cards:hover {
   border: 1px solid #0a0e14;

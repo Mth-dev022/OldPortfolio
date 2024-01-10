@@ -33,6 +33,9 @@
     text-decoration: none;
     font-size: 20px;
   }
+  .open {
+    display: block;
+  }
   #right-size {
     display: none;
   }
@@ -80,61 +83,58 @@
   }
   #habilidades #cards-area .cards {
     height: 100px;
-    width: 90px;
+    width: 98px;
     font-size: 35px;
+    margin-top: 20px;
   }
   #habilidades #cards-area .cards p {
     font-size: 20px;
+  }
+  #habilidades #cards-area .cards img {
+    width: 32px;
   }
   /*---- Projetos ---- */
   #projetos {
     width: 300px;
   }
   #projetos .card-projetos img {
-    width: 250px;
+    width: 230px;
   }
   /*---- Certificados ---- */
-  #certificados {
-    background-color: transparent;
+  #certificados #certificados-area {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
   }
-  #certificados h1 {
-    margin: 0;
+  #certificados #certificados-area .cards {
+    margin-top: 15px;
+  }
+  #certificados #certificados-area .cards h2 {
+    font-size: 25px;
+  }
+  #certificados #certificados-area .cards img {
+    width: 120px;
   }
   /*---- Footer ---- */
   footer h1 {
     margin: 0;
   }
 }
-@media (min-width: 721px) and (max-width: 1280px) {
+@media (min-width: 720px) and (max-width: 1280px) {
   body {
     overflow-x: hidden;
   }
-  #navbar {
-    justify-content: space-around;
-  }
   .mobile-menu-icon {
-    display: block;
+    display: none;
   }
   .mobile-menu-icon button {
     background-color: transparent;
     border: none;
     cursor: pointer;
   }
-  .mobile-menu .nav-items-mobile {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    padding-bottom: 1rem;
-  }
-  .mobile-menu .nav-items-mobile .nav-item-mb {
-    display: block;
-    padding-top: 1.2rem;
-    color: white;
-    text-decoration: none;
-    font-size: 20px;
-  }
-  .nav-items {
-    display: none;
+  .nav-items .nav-item {
+    font-size: 17px;
   }
   #right-size {
     display: none;
@@ -146,11 +146,11 @@
     font-size: 23px;
   }
   #main #left-size .social-medias {
-    padding: 10px;
-    height: 50px;
+    padding: 8px;
+    height: 35px;
   }
   #main #left-size .social-medias i {
-    font-size: 40px;
+    font-size: 35px;
     margin-left: 13px;
     width: 50px;
   }
@@ -176,11 +176,38 @@
     font-size: 35px;
   }
   #habilidades #cards-area .cards p {
-    font-size: 25px;
+    font-size: 20px;
+  }
+  #habilidades #cards-area .cards img {
+    width: 35px;
   }
   /*---- Projetos ---- */
   #projetos {
     width: 600px;
+  }
+  #certificados #certificados-area .cards {
+    width: 200px;
+    height: 500px;
+  }
+  #certificados #certificados-area .cards img {
+    width: 100px;
+  }
+  #certificados #certificados-area .cards h2 {
+    font-size: 20px;
+    height: 50px;
+    padding-bottom: 20px;
+  }
+  #certificados #certificados-area .cards .area-2 {
+    height: 300px;
+  }
+  #certificados #certificados-area .cards .area-2 p {
+    width: 140px;
+    font-size: 15px;
+    padding-bottom: 35px;
+  }
+  #certificados #certificados-area .cards .area-2 a {
+    padding: 10px;
+    font-size: 15px;
   }
 }
 
